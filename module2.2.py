@@ -1,9 +1,10 @@
-first = 123
-second = 456
-third = 789
+first = int(input("Введите целое число: "))
+second = int(input("Введите целое число: "))
+third = int(input("Введите целое число: "))
 if first == second == third:
     print(3)
-if first==second or second==third or third==first:
+elif first == second or second == third or third == first:
     print(2)
-if first!=second!=third:
+else:
+    first != second != third
     print(0)
